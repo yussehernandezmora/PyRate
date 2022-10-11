@@ -87,7 +87,7 @@ Canis\_thooides | extinct | 1.8 | 4.9  | 5
 
 # Check species names for typos and inconsistent spelling
 
-PyRte implements an algorithm to check for inconsistent spelling in species names (expected format: *Genus\_species*) as these can occur frequently especially in large datasets and hamper the accuracy of the analysis. This is implemented in the function `-check_names`, which requires a text file containing one species name for each row. The function can use directly text file (\*\_SpeciesList.txt) generated in the steps described above while preparing yRate's input files.
+PyRate implements an algorithm to check for inconsistent spelling in species names (expected format: *Genus\_species*) as these can occur frequently especially in large datasets and hamper the accuracy of the analysis. This is implemented in the function `-check_names`, which requires a text file containing one species name for each row. The function can use directly text file (\*\_SpeciesList.txt) generated in the steps described above while preparing PyRate's input files.
 
 The function is called as follows:
 
